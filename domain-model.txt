@@ -1,0 +1,126 @@
+BOB's Bagels
+
+DONE --- # Part 1
+As a member of the public
+So I can order a bagel when I want to
+I'd like to add an item to my basket
+
+DONE ---
+As a member of the public,
+So that I can change my order
+I'd like to remove an item from my basket
+
+
+# Part 2
+DONE ---
+As a member of the public,
+So that I can not overfill my small bagel basket
+I'd like to know when my basket is full when I try adding an item beyond my basket capacity.
+
+DONE ---
+As a Bob's Bagels manager,
+So that I can record more sales
+I’d like to create baskets with larger capacity when I need to.
+
+DONE ---
+As a member of the public
+So that I can maintain my sanity
+I'd like to know if I try to remove an item that doesn't exist in my basket. 
+
+DONE ---
+As a member of the public
+So that I can buy more than 1 of my favorite bagel
+I'd like to be able to add the same type of bagel more than once
+
+
+# Part 3
+
+DONE ---
+As a member of the public,
+So that I can know how much my bagels are,
+I’d like to see the price of each item before I add it to my basket.
+
+
+DONE ---
+As a member of the public,
+So that I can prepare to pay
+When I go to checkout I'd like to know the total sum of the bagels in my basket
+
+
+
+METHODS (****) AND TESTS (----)
+
+*****
+getBasket()
+------
+DONE - CHECKING EMPTY BASKET RETURNS EMPTY.
+DONE - OVERFILLING BASKET RETURNS FULL BASKET
+
+****
+addToBasket(item);  
+
+----
+DONE - ADD ONE ITEM TO BASKET
+DONE - ADD TWO ITEMS TO BASKET
+DONE - ADD ONE ITEM TO A FULL BASKET
+DONE - ADDING TWO OF THE SAME ITEM
+DONE - MANAGER INCREASING BASKET SIZE
+
+****
+removeItemFromBasket(item); 
+
+----
+DONE - REMOVE ONE ITEM FROM BASKET
+DONE - REMOVE MULTIPLE ITEMS FROM BASKET
+DONE - REMOVE ITEM THAT DOESN'T EXIST
+
+****
+addToBasket(item); removeItemFromBasket(item); 
+----
+DONE - ADD ONE ITEM THEN REMOVE IT RETURNS EMPTY
+
+
+
+****
+removeItemFromBasket(item) -- .
+
+----
+DONE - REMOVE A BAGEL THAT DOESN'T EXIST. 
+
+
+****
+createLargerBasket()
+
+----
+DONE - basket.basketSize
+
+****
+getPrice(item)
+
+----
+DONE - CHECKING THE PRICE OF AN ITEM BEFORE ADDING TO BASKET
+
+****
+getBasketTotal()
+
+----
+DONE - TOTAL SUM OF ONE ITEM IN BASKET
+DONE - TOTAL SUM OF MULTIPLE ITEMS IN BASKET
+
+EXTENSION ONE 
+
+----
+SPECIAL OFFERS:
+getTotalOfBasket()
+getDiscount()
+
+---
+DONE - Special Offer: 6 Onion Bagels should be £2.49
+DONE - Special Offer: 6 Everything Bagels should be £2.49
+DONE - Special Offer: 12 Plain Bagels should be £3.99
+DONE - Special Offer: 1 Plain Bagel and 1 Coffee should be £1.25
+
+I
+
+
+
