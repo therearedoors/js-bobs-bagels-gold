@@ -2,49 +2,49 @@ const inventory = [
     {
       "sku": "BGLO",
       "price": 0.49,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Onion"
     },
     {
       "sku": "BGLP",
       "price": 0.39,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Plain"
     },
     {
       "sku": "BGLB",
       "price": 0.49,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Blueberry"
     },
     {
       "sku": "BGLS",
       "price": 0.49,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Sesame"
     },
     {
       "sku": "BGLA",
       "price": 0.99,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Asiago"
     },
     {
       "sku": "BGLG",
       "price": 0.99,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Garlic",
     },
     {
       "sku": "BGLW",
       "price": 0.99,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Whole Wheat",
     },
     {
       "sku": "BGLE",
       "price": 0.49,
-      "name": "Bagel",
+      "name": "item",
       "variant": "Everything",
     },
     {
