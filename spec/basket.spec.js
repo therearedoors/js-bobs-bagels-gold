@@ -287,30 +287,9 @@ describe("Basket", () => {
     //setup 
     const expected = 7.98 + 4.98 + 4.98
     basket.basketSize = 48
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
-    basket.additemToBasket("Plain")
+    for (let i = 0; i<24;i++){
+      basket.additemToBasket("Plain")
+    }
     basket.additemToBasket("Onion")
     basket.additemToBasket("Onion")
     basket.additemToBasket("Onion")

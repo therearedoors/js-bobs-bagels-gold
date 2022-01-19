@@ -39,8 +39,8 @@ class Basket {
 
   removeitemFromBasket(variant) {
     //console.log(this.basket.find(e => e.variant));
-    if(!this.basket.find(e => e.variant === variant)){
-    return this.alert(variant)
+    if(!this.findItemInBasket(variant)){
+    return `${variant} item doesn't exist`
     }
     for (let i = 0; i < this.basket.length; i++) {
       const itemToRemove = this.basket[i];
@@ -50,8 +50,8 @@ class Basket {
     }
   }
 
-  alert(variant){
-    return `${variant} item doesn't exist`
+  findItemInBasket(variant){
+   return this.basket.find(e => e.variant === variant)
   }
   
   getTotalOfBasket() {
